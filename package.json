@@ -1,0 +1,26 @@
+{
+  "name": "water-bill-management-system",
+  "version": "1.0.0",
+  "description": "A complete water bill management system with admin portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "water",
+    "bill",
+    "management",
+    "admin",
+    "portal"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "pdfkit": "^0.13.0",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3"
+  }
+}
